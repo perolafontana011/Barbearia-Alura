@@ -1,0 +1,149 @@
+header{
+    background: #bbbbbb;
+    padding: 20px  0;
+}
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+
+.produto-decricao{
+    font-size: 20px;
+}
+
+.produto-preco{
+   font-size: 22px;
+   font-weight: bold;
+   margin-top: 10px;
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos{
+   width: 940px;
+   margin: 0 auto;
+   padding: 50px 0; 
+}
+
+footer{
+    text-align: center;
+    background: url("../imagens/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright{
+    color: white;
+    font-size: 20px;
+    margin: 20px 0 0;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 40px;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+ul{
+    padding: 10px;
+}
+
+.produtos li:hover{
+    border-color: #c78c19;
+} 
+
+.produtos li:active{
+    border-color: #088c19;
+    border: 6px double #088c19;
+}
+
+.titulo-centralizado{
+    text-align: center;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label{
+    display: block;
+}
+
+form input{
+    display: block;
+}
+
+#banner{
+    width: 50%;
+}
+
+.imagembeneficios{
+    width: 20%;
+}
+
+#missao{
+    text-align: center;
+    font-size: 34px;
+}
+
+.centro{
+    text-align: center;
+}
+
+.centro-imagem{
+    text-align: center;
+}
+
+body{
+    background-image: url(../imagens/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+.container2{
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+a{
+    padding: 10px;
+}
+
+li{
+    list-style-type: none;
+  }
